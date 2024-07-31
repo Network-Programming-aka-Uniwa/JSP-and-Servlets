@@ -1,0 +1,31 @@
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">    
+<title>Φόρμα αποστολής δεδομένων</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form action="showformdata.jsp" method="post" >
+Όνομα<input type="text" name="uname" value=""><br>
+Επώνυμο<input type="text" name="usurname" value=""><br>
+Ηλικία<input type="text" name="age" value=""><br>
+Πόλη
+ <select name="city">
+  <option value="Athens">Αθήνα</option>
+  <option value="Lamia">Λαμία</option>
+  <option value="NewYork">New York</option>
+</select><br>
+Υπολογιστή<input type="checkbox" name="pc" checked="checked" /><br>
+Κινητό<input type="checkbox" name="mobile" checked="checked" /><br>
+<input type="submit" value="Αποστολή">
+</form>
+</body>
+</html>
+
